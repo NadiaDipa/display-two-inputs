@@ -1,0 +1,15 @@
+.box{
+    width: 50%;
+    background-color:cadetblue;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding: 20px;
+}
+.btn{
+    
+    margin: 20px;
+}
