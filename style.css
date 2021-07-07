@@ -1,15 +1,42 @@
-.box{
+body {
+    font-family: 'Encode Sans SC',
+        sans-serif;
+       
+}
+
+.box {
     width: 50%;
-    background-color:cadetblue;
+    border-radius: 15px;
+    background-color: rgb(192, 135, 117);
+    box-shadow: 20px 20px 20px 20px rgb(129, 125, 116);
     margin: 0 auto;
 }
-h1{
+
+h1 {
     text-align: center;
+    margin: 50px;
+    font-family:cursive;
 }
-h2{
+
+.box h1 {
+    padding-top: 30px;
+}
+
+h2 {
     padding: 20px;
 }
-.btn{
-    
+
+.btn {
+    padding: 20px 20px;
+    color: antiquewhite;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 20px;
     margin: 20px;
+    background-image: linear-gradient(rgb(17, 16, 15), rgb(153, 28, 28));
+}
+
+.btn:hover {
+    background: rgb(2, 2, 15);
+    color: rgb(248, 5, 46)
 }
